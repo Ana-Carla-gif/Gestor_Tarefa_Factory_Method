@@ -1,12 +1,12 @@
 import controller.GestorTarefa;
 import factory.TarefaFactory;
-import factory.TarefaSimplesFactory;
+import factory.TarefaSimples;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         // Criando uma instância do Factory Method
-        TarefaFactory tarefaFactory = new TarefaSimplesFactory();
+        TarefaFactory tarefaFactory = new TarefaSimples();
         GestorTarefa gestorTarefa = new GestorTarefa(tarefaFactory);
         Scanner scanner = new Scanner(System.in);
 
