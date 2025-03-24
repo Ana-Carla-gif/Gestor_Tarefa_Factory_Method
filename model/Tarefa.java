@@ -1,4 +1,3 @@
-//Tarefa.java (Model)
 
 package model;
 
